@@ -17,7 +17,6 @@ def afficher_grille(plateau:dict) -> None:
             else:
                 print(elt, end="\t|\t")
         print("\n---------------------------------------------------------")
-    import os
 
 def jouer_coup(plateau:dict, joueur:str, coup:str) -> None:
     """Fonction qui joue un coup (Ne vérifie pas si le coup est valide)
