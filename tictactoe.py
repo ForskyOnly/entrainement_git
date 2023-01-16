@@ -92,3 +92,5 @@ def est_pleine(plateau:dict) -> bool:
             if case == None:
                 return False
     return True
+
+def jouer_coup()
