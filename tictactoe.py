@@ -50,3 +50,4 @@ def coup_valide(plateau:dict, coup:str) -> bool:
     else:
         return False
     
+
