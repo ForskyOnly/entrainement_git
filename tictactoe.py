@@ -79,5 +79,16 @@ def est_gagnante(plateau:dict) -> bool:
     
     return False
 
-
+def est_pleine(plateau:dict) -> bool:
+    """Fonction qui permet de savoir si la grille est pleine
+    Args:
+        plateau (dict): Un plateau de jeu
+    Returns:
+        bool: True si la grille est pleine, False sinon
+    """
     
+    for cle in plateau:
+        for case in plateau[cle]:
+            if case == None:
+                return False
+    return True
