@@ -49,7 +49,7 @@ def coup_valide(plateau:dict, coup:str) -> bool:
         return True
     else:
         return False
-
+    
 def est_gagnante(plateau:dict) -> bool:
     """Fonction qui vérifie si la grille est gagnante
 
@@ -93,4 +93,3 @@ def est_pleine(plateau:dict) -> bool:
                 return False
     return True
 
-def jouer_coup()
